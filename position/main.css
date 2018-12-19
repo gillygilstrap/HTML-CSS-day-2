@@ -1,0 +1,59 @@
+body {
+    background: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    height: 80%;
+    width: 80%;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inner {
+    height: 80%;
+    width: 80%;
+    background: magenta;
+    position: relative;
+}
+.on-top {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: purple;
+    position: relative;
+
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: blue;
+    position: absolute;
+    z-index: 2;
+}
+
+.top {
+    top: 0;
+    
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+   right: 0
+}
+
+.bottom {
+    bottom: 0
+}

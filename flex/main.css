@@ -1,0 +1,32 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    height: 70%;
+    width: 70%;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent > div{
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin: 10px;
+    flex: 1
+}
+
+.parent > div:nth-child(1) {
+    flex: 12;
+    align-self: flex-start
+}
+.parent > div:nth-child(2) {
+    flex: 3;
+}
